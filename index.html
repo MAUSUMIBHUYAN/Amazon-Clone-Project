@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Amazon clone</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+    	<div class="navbar">
+    		<div class = "navlogo border">
+    			<div class = "logo"></div>
+            </div>
+
+			<div class = "nav-address border">
+				<p class="add-first">Deliver to</p>
+				<div class = "add-icon">
+					<i class="fa-solid fa-location-dot"></i>
+					<p class = "add-sec">India</p>
+				</div>
+			</div>
+
+			<div class="nav-search">
+				<select class="search-select">
+					<option>All</option>
+				</select>
+				<input placeholder="Search Amazon" class="search-input">
+				<div class="search-icon">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+			</div>
+
+			<div class="nav-language border">
+				<img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="English Flag" class="flag-icon">
+				<p class="lang-text">EN</p>
+				<i class="fa-solid fa-caret-down"></i>
+			</div>
+
+			<div class="nav-signin border">
+				<p><span>Hello, sign in</span></p>
+				<p class="nav-second">Account & Lists</p>
+			</div>
+
+			<div class="nav-return border">
+				<p><span>Returns</span></p>
+				<p class="nav-second">& Orders</p>
+			</div>
+    			
+    	    <div class="nav-cart border">
+    	    	<i class="fa-solid fa-cart-shopping"></i>
+    	    	Cart
+    	    </div>		
+    	</div>
+
+        <div class="panel">
+        	<div class="panel-all">
+        		<i class="fa-solid fa-bars"></i>
+        		All
+        	</div>
+
+        	<div class="panel-options">
+        		<a href="/">Today's Deals</a>
+        		<a href="/">Customer Service</a>
+        		<a href="/">Registry</a>
+        		<a href="/">Gift Cards</a>
+        		<a href="/">Sell</a>
+        	</div>
+        </div>
+
+    </header>
+
+    <div class="bg-section">
+    	<div class = "bg-slider">
+    		<a href="#" class="control-prev">
+    			<i class="fa-solid fa-chevron-left"></i>
+    	    </a>
+	    	<a href="#" class="control-next">
+	    		<i class="fa-solid fa-chevron-right"></i>
+	    	</a>
+	    	<ul>
+	    		<li>
+	                <a href="/">
+	                    <img src="images/bg1.jpg" class="img">
+	                </a>
+                </li>
+	            <li>
+	                <a href="/">
+	                    <img src="images/bg2.jpg" class="img">
+	                </a>
+	            </li>
+	            <li>
+	                <a href="/">
+	                    <img src="images/bg3.jpg" class="img">
+	                </a>
+	            </li>
+	            <li>
+	                <a href="/">
+	                    <img src="images/bg4.jpg" class="img">
+	                </a>
+	            </li>
+	            <li>
+	                <a href="/">
+	                    <img src="images/bg5.jpg" class="img">
+	                </a>
+	            </li>
+	            <li>
+	                <a href="/">
+	                    <img src="images/bg6.jpg" class="img">
+	                </a>
+	            </li>
+	    	</ul>
+    	</div>
+    	
+        <div class="products-1">
+        	<div class="boxrow-1">
+        		<h3>Gaming accessories</h3>
+        		<div class="box-1">
+        			<div>
+        				<img src="images/box1_img1.jpg">
+        				<a href="/">Headsets</a>
+        			</div>
+        			<div>
+        				<img src="images/box1_img2.jpg">
+        				<a href="/">Keyboards</a>
+        			</div>
+        			<div>
+        				<img src="images/box1_img3.jpg">
+        				<a href="/">Computer mice</a>
+        			</div>
+        			<div>
+        				<img src="images/box1_img4.jpg">
+        				<a href="/">Chairs</a>
+        			</div>
+        			<div>
+        				<a href="/" class="see-more">See more</a>
+        			</div>
+        		</div>
+			</div>
+			<div class="boxrow-1">
+        		<h3>Get your game on</h3>
+        		<div class="box-2">
+        			<div>
+        				<img src="images/box2.jpg">
+        			</div>
+        			<div>
+        				<a href="/" class="shop-gaming">Shop gaming</a>
+        			</div>
+        		</div>
+			</div>
+			<div class="boxrow-1">
+        		<h3>Shop for your home essentials</h3>
+        		<div class="box-3">
+        			<div>
+        				<img src="images/box3_img1.jpg">
+        				<a href="/">Cleaning Tools</a>
+        			</div>
+        			<div>
+        				<img src="images/box3_img2.jpg">
+        				<a href="/">Home Stroage</a>
+        			</div>
+        			<div>
+        				<img src="images/box3_img3.jpg">
+        				<a href="/">Home Decor</a>
+        			</div>
+        			<div>
+        				<img src="images/box3_img4.jpg">
+        				<a href="/">Bedding</a>
+        			</div>
+        			<div class="link">
+        				<a href="/" class="discover">Discover more in Home</a>
+        			</div>
+        	    </div>
+			</div>
+        </div>
+
+
+        <div class="products-2">
+        	<div class="boxrow-2">
+        		<h3>Shop deals in Fashion</h3>
+        		<div class="box-4">
+        			<div>
+        				<img src="images/box4_img1.jpg">
+        				<a href="/">Jeans under $50</a>
+        			</div>
+        			<div>
+        				<img src="images/box4_img2.jpg">
+        				<a href="/">Tops under $25</a>
+        			</div>
+        			<div>
+        				<img src="images/box4_img3.jpg">
+        				<a href="/">Dresses under $30</a>
+        			</div>
+        			<div>
+        				<img src="images/box4_img4.jpg">
+        				<a href="/">Shoes under $50</a>
+        			</div>
+        			<div class="link">
+        				<a href="/" class="see-all">See all deals</a>
+        			</div>
+        		</div>
+			</div>
+			
+		    <div class="boxrow-2">
+        		<h3>New home arrivals under $50</h3>
+        		<div class="box-5">
+        			<div>
+        				<img src="images/box5_img1.jpg">
+        				<a href="/">Kitchen & dining</a>
+        			</div>
+        			<div>
+        				<img src="images/box5_img2.jpg">
+        				<a href="/">Home improvement</a>
+        			</div>
+        			<div>
+        				<img src="images/box5_img3.jpg">
+        				<a href="/">Decor</a>
+        			</div>
+        			<div> 
+        				<img src="images/box5_img4.jpg">
+        				<a href="/">Bedding & bath</a>
+        			</div>
+        			<div class="link">
+        				<a href="/" class="home">Shop the latest from Home</a>
+        			</div>
+        			
+        		</div>
+			</div>
+			<div class="boxrow-2">
+        		<h3>Top categories in Kitchen appliances</h3>
+        		<div class="box-6">
+        			<div class="item">
+        				<img src="images/box6_img1.jpg">
+        				<a href="/">Cooker</a>
+        			</div>
+        			<div class="item">
+        				<img src="images/box6_img2.jpg">
+        				<a href="/">Coffee</a>
+        			</div>
+        			<div class="item">
+        				<img src="images/box6_img3.jpg">
+        				<a href="/">Pots and Pans</a>
+        			</div>
+        			<div class="item">
+        				<img src="images/box6_img4.jpg">
+        				<a href="/">Kettles</a>
+        			</div>
+        			<div class="link">
+        				<a href="/" class="explore">Explore all products in Kitchen</a>
+        			</div>
+        		</div>
+			</div>
+        </div>
+
+
+        <div class="products-3">
+        	<div class="boxrow-3">
+        		<h3>Toys under $25</h3>
+        		<div class="box-7">
+        			<div>
+        				<img src="images/box7.jpg">
+        			</div>
+        			<div>
+        				<a href="/" class="shop">Shop now</a>
+        			</div>
+        		</div>
+			</div>
+			<div class="boxrow-3">
+        		<h3>New year, now you</h3>
+        		<div class="box-8">
+        			<div>
+        				<img src="images/box8.jpg">
+        			</div>
+        			<div>
+        				<a href="/" class="shop">Shop now</a>
+        			</div>
+        		</div>
+			</div>
+			<div class="boxrow-3">
+        		<h3>Refresh your space</h3>
+        		<div class="box-9">
+        			<div>
+        				<img src="images/box9_img1.jpg">
+        				<a href="/">Cleaning Tools</a>
+        			</div>
+        			<div>
+        				<img src="images/box9_img2.jpg">
+        				<a href="/">Home Stroage</a>
+        			</div>
+        			<div>
+        				<img src="images/box9_img3.jpg">
+        				<a href="/">Home Decor</a>
+        			</div>
+        			<div>
+        				<img src="images/box9_img4.jpg">
+        				<a href="/">Bedding</a>
+        			</div>
+        			<div class="link">
+        				<a href="/" class="see-more">See more</a>
+        			</div>
+        	    </div>
+			</div>
+        </div>
+
+        <div class="products-slider1">
+        	<a href="#" class="control-prev-products">
+		        <i class="fa-solid fa-chevron-left"></i>
+		    </a>
+		    <a href="#" class="control-next-products">
+		        <i class="fa-solid fa-chevron-right"></i>
+		    </a>
+        	<h3>Popular items this season</h3>
+        	<div class="products-row1">
+    			<a href="/"><img src="images/slide1_prod1.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod2.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod3.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod4.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod5.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod6.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod7.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod8.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod9.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod10.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod11.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod12.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod13.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod14.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod15.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod16.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod17.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod18.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod19.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod20.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod21.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod22.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide1_prod23.jpg" class="img"></a>
+                <a href="/"><img src="images/slide1_prod24.jpg" class="img"></a>
+                <a href="/"><img src="images/slide1_prod25.jpg" class="img"></a>
+                <a href="/"><img src="images/slide1_prod26.jpg" class="img"></a>
+                <a href="/"><img src="images/slide1_prod27.jpg" class="img"></a>
+        	</div>
+        </div>
+        <div class="products-4">
+        	<div class="boxrow-4">
+        		<h3>Most-loved watches</h3>
+        		<div class="box-10">
+        			<div>
+        				<img src="images/box10_img1.jpg">
+        				<a href="/">Women</a>
+        			</div>
+        			<div>
+        				<img src="images/box10_img2.jpg">
+        				<a href="/">Man</a>
+        			</div>
+        			<div>
+        				<img src="images/box10_img3.jpg">
+        				<a href="/">Girls</a>
+        			</div>
+        			<div>
+        				<img src="images/box10_img4.jpg">
+        				<a href="/">Boys</a>
+        			</div>
+        			<div>
+        				<a href="/" class="see-more">Discover more</a>
+        			</div>
+        		</div>
+			</div>
+			<div class="boxrow-4">
+        		<h3>Most-loved travel essentials</h3>
+        		<div class="box-11">
+        			<div>
+        				<img src="images/box11_img1.jpg">
+        				<a href="/">Backpacks</a>
+        			</div>
+        			<div>
+        				<img src="images/box11_img2.jpg">
+        				<a href="/">Suitcases</a>
+        			</div>
+        			<div>
+        				<img src="images/box11_img3.jpg">
+        				<a href="/">Accessories</a>
+        			</div>
+        			<div>
+        				<img src="images/box11_img4.jpg">
+        				<a href="/">Handbags</a>
+        			</div>
+        			<div class="link">
+        				<a href="/" class="discover">Discover more </a>
+        			</div>
+        	    </div>
+			</div>
+			<div class="boxrow-4">
+        		<h3>Gaming corner</h3>
+        		<div class="box-12">
+        			<div>
+        				<img src="images/box12.jpg">
+        			</div>
+        			<div>
+        				<a href="/" class="shop-gaming">For all your gaming needs</a>
+        			</div>
+        		</div>
+			</div>
+		</div>
+		<div class="products-slider2">
+        	<a href="#" class="control-prev-products">
+		        <i class="fa-solid fa-chevron-left"></i>
+		    </a>
+		    <a href="#" class="control-next-products">
+		        <i class="fa-solid fa-chevron-right"></i>
+		    </a>
+        	<h3>Best Sellers in Toys & Games</h3>
+        	<div class="products-row2">
+    			<a href="/"><img src="images/slide2_prod1.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod2.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod3.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod4.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod5.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod6.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod7.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod8.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod9.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod10.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod11.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod12.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod13.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod14.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod15.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod16.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod17.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod18.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod19.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod20.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod21.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod22.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide2_prod23.jpg" class="img"></a>
+                <a href="/"><img src="images/slide2_prod24.jpg" class="img"></a>
+                <a href="/"><img src="images/slide2_prod25.jpg" class="img"></a>
+                <a href="/"><img src="images/slide2_prod26.jpg" class="img"></a>
+        	</div>
+        </div>
+        <div class="products-5">
+        	<div class="boxrow-5">
+        		<h3>Wireless Tech</h3>
+        		<div class="box-13">
+        			<div>
+        				<img src="images/box13_img1.jpg">
+        				<a href="/">Smartphones</a>
+        			</div>
+        			<div>
+        				<img src="images/box13_img2.jpg">
+        				<a href="/">Watches</a>
+        			</div>
+        			<div>
+        				<img src="images/box13_img3.jpg">
+        				<a href="/">Headphones</a>
+        			</div>
+        			<div>
+        				<img src="images/box13_img4.jpg">
+        				<a href="/">Tablets</a>
+        			</div>
+        			<div>
+        				<a href="/" class="see-more">Discover more</a>
+        			</div>
+        		</div>
+			</div>
+			<div class="boxrow-5">
+        		<h3>Level-up your gaming</h3>
+        		<div class="box-14">
+        			<div>
+        				<img src="images/box14_img1.jpg">
+        				<a href="/">PC gaming</a>
+        			</div>
+        			<div>
+        				<img src="images/box14_img2.jpg">
+        				<a href="/">Xbox</a>
+        			</div>
+        			<div>
+        				<img src="images/box14_img3.jpg">
+        				<a href="/">PlayStation</a>
+        			</div>
+        			<div>
+        				<img src="images/box14_img4.jpg">
+        				<a href="/">Nintendo Switch</a>
+        			</div>
+        			<div class="link">
+        				<a href="/" class="discover">Shop the latest in gaming</a>
+        			</div>
+        	    </div>
+			</div>
+			<div class="boxrow-5">
+        		<h3>Score the top PCs & Accessories</h3>
+        		<div class="box-15">
+        			<div>
+        				<img src="images/box15_img1.jpg">
+        				<a href="/">Desktops</a>
+        			</div>
+        			<div>
+        				<img src="images/box15_img2.jpg">
+        				<a href="/">Laptops</a>
+        			</div>
+        			<div>
+        				<img src="images/box15_img3.jpg">
+        				<a href="/">Hard drives</a>
+        			</div>
+        			<div>
+        				<img src="images/box15_img4.jpg">
+        				<a href="/">PC Accessories</a>
+        			</div>
+        			<div class="link">
+        				<a href="/" class="discover">See more</a>
+        			</div>
+        	    </div>
+			</div>
+		</div>
+		<div class="products-slider3">
+        	<a href="#" class="control-prev-products">
+		        <i class="fa-solid fa-chevron-left"></i>
+		    </a>
+		    <a href="#" class="control-next-products">
+		        <i class="fa-solid fa-chevron-right"></i>
+		    </a>
+        	<h3>Best Sellers in Home & Kitchen</h3>
+        	<div class="products-row3">
+    			<a href="/"><img src="images/slide3_prod1.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod2.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod3.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod4.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod5.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod6.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod7.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod8.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod9.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod10.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod11.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod12.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod13.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod14.jpg" class="img"></a>
+	            <a href="/"><img src="images/slide3_prod15.jpg" class="img"></a>
+        	</div>
+        </div>
+    </div>
+	<section class="footer">
+    <div class="backtop">
+        <a href="/">Back to Top</a>
+    </div>
+    <div class="detail">
+        <div class="table">
+            <div>
+                <div class="t-head">Get to Know Us</div>
+                <ul>
+                    <li><a href="/">Careers</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">About Amazon</a></li>
+                    <li><a href="/">Investor Relations</a></li>
+                    <li><a href="/">Amazon Devices</a></li>
+                    <li><a href="/">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="t-head">Make Money with Us</div>
+                <ul>
+                    <li><a href="/">Sell products on Amazon</a></li>
+                    <li><a href="/">Sell on Amazon Business</a></li>
+                    <li><a href="/">Sell apps on Amazon</a></li>
+                    <li><a href="/">Become an Affiliate</a></li>
+                    <li><a href="/">Advertise Your Products</a></li>
+                    <li><a href="/">Self-Publish with Us</a></li>
+                    <li><a href="/">Host an Amazon Hub</a></li>
+                    <li><a href="/">See More Make Money with Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="t-head">Amazon Payment Products</div>
+                <ul>
+                    <li><a href="/">Amazon Business Card</a></li>
+                    <li><a href="/">Shop with Points</a></li>
+                    <li><a href="/">Reload Your Balance</a></li>
+                    <li><a href="/">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="t-head">Let Us Help You</div>
+                <ul>
+                    <li><a href="/">Amazon and Covid-19</a></li>
+                    <li><a href="/">Your Account</a></li>
+                    <li><a href="/">Your Orders</a></li>
+                    <li><a href="/">Shipping Rates & Policies</a></li>
+                    <li><a href="/">Returns & Replacements</a></li>
+                    <li><a href="/">Manage your Content and Devices</a></li>
+                    <li><a href="/">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section">
+        <img src="images/amazon_logo.png" alt="Amazon Logo" class="amazon-logo">
+        <div class="options">
+            <button class="btn language">
+            <i class="fas fa-globe"></i>
+            English
+            <i class="fas fa-caret-down"></i>
+        </button>
+            <button class="btn">$ USD - U.S.Dollar</button>
+            <button class="btn" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg'); background-repeat: no-repeat; background-size: 18px 14px; background-position: 10px center; padding-left: 40px;">
+            United States
+        </button>
+        </div>
+    </div>
+</section>
+	
+
+<script src ="script.js"></script>
+<script src ="script1.js"></script>
+</body>
+</html>
