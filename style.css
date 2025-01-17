@@ -150,30 +150,24 @@ span {
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-evenly;
-}
-.panel-options {
-    width: 92%;
+    justify-content: flex-start;
     font-size: 0.85rem;
-    
 }
-.panel-options a {
+.panel a{
     color: white;
-    display: inline;
     text-decoration: none;
     cursor: pointer;
     border: 1px solid transparent;
-    padding: 12px 8px;
+    padding: 11px 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
     
 }
-.panel-options a:hover {
+.panel a:hover {
     border: 1px solid white;
-    
+}
 
-}
-.panel-options a:first-child {
-    margin-left: 0;  /* Remove left margin on the first link */
-}
 
 
 /*background */
@@ -226,22 +220,22 @@ span {
 
 /*boxes row1*/
 .products-1 {
-    position: absolute; /* Ensures it's positioned above the background images */
-    top: 7.3%; /* Adjust this to set the vertical position of the boxes */
-    left: 0.1%; /* Adjust to position the boxes horizontally */
+    position: absolute; 
+    top: 7.3%; 
+    left: 0.1%; 
     right: 0.1%;
-    width: auto; /* Makes the container take most of the viewport width */
-    display: flex; /* For aligning multiple boxes in a row */
-    justify-content: space-evenly; /* Distributes the boxes evenly */
-    z-index: 2; /* Places the boxes above the background images */
+    width: auto; 
+    display: flex; 
+    justify-content: space-evenly; 
+    z-index: 2; 
 
 }
 
 .boxrow-1 {
-    background-color: white; /* White background for the box */
-    width: 30%; /* Each box takes up a third of the width in the row */
-    height: 418px; /* Set the height of the box */
-    padding: 20px; /* Adds inner spacing */
+    background-color: white; 
+    width: 30%; 
+    height: 418px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -255,10 +249,10 @@ span {
 }
 /*box1*/
 .box-1 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 
 .box-1 div {
@@ -270,7 +264,7 @@ span {
 }
 
 .box-1 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -282,9 +276,9 @@ span {
     text-decoration: none;
 }
 .box-1 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-1 .see-more {
     font-size: 0.82rem;
@@ -303,15 +297,15 @@ span {
     margin-bottom: 25px;
 }
 .box-2 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 305px;
     object-fit: cover;
     margin-bottom: 18px;
 }
 .box-2 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-2 .shop-gaming {
     font-size: 0.82rem;
@@ -325,10 +319,10 @@ span {
 }
 /*box3*/
 .box-3 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 
 .box-3 div {
@@ -340,7 +334,7 @@ span {
 }
 
 .box-3 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -352,9 +346,9 @@ span {
     text-decoration: none;
 }
 .box-3 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-3 .discover {
     font-size: 0.82rem;
@@ -370,21 +364,21 @@ span {
 
 /*boxes row2*/
 .products-2 {
-    position: absolute; /* Ensures it's positioned above the background images */
-    top: 20.3%; /* Adjust this to set the vertical position of the boxes */
-    left: 0.1%; /* Adjust to position the boxes horizontally */
+    position: absolute; 
+    top: 20.3%; 
+    left: 0.1%; 
     right: 0.1%;
-    width: auto; /* Makes the container take most of the viewport width */
-    display: flex; /* For aligning multiple boxes in a row */
-    justify-content: space-evenly; /* Distributes the boxes evenly */
-    z-index: 2; /* Places the boxes above the background images */
+    width: auto; 
+    display: flex; 
+    justify-content: space-evenly; 
+    z-index: 2; 
 
 }
 .boxrow-2 {
-    background-color: white; /* White background for the box */
-    width: 30%; /* Each box takes up a third of the width in the row */
-    height: 418px; /* Set the height of the box */
-    padding: 20px; /* Adds inner spacing */
+    background-color: white; 
+    width: 30%; 
+    height: 418px; 
+    padding: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -398,10 +392,10 @@ span {
 }
 /*box4*/
 .box-4 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 .box-4 div {
     display: flex;
@@ -412,7 +406,7 @@ span {
 }
 
 .box-4 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -424,9 +418,9 @@ span {
     text-decoration: none;
 }
 .box-4 .link {
-  grid-column: span 2; /* Make the link span all columns */
+  grid-column: span 2; 
   display: flex;
-  justify-content: left; /* Center the explore link */
+  justify-content: left; 
 }
 .box-4 .see-all {
     font-size: 0.82rem;
@@ -438,10 +432,10 @@ span {
 }
 /*box5*/
 .box-5 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 .box-5 div {
     display: flex;
@@ -452,7 +446,7 @@ span {
 }
 
 .box-5 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -464,14 +458,14 @@ span {
     text-decoration: none;
 }
 .box-5 .link {
-  grid-column: span 2; /* Make the link span all columns */
+  grid-column: span 2; 
   display: flex;
-  justify-content: left; /* Center the explore link */
+  justify-content: left; 
 }
 .box-5 .home {
     font-size: 0.82rem;
     color: #2162a1;
-    white-space: nowrap; /* Prevent the text from wrapping */
+    white-space: nowrap; 
 }
 .home:hover {
     color: black;
@@ -479,8 +473,8 @@ span {
 /*box6*/
 .box-6 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
-  gap: 18px; /* Space between items */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 18px; 
 }
 .box-6 .item:nth-child(1) {
     grid-column: span 3; 
@@ -497,9 +491,9 @@ span {
     text-align: left;
 }
 .box-6 img {
-    max-width: 105%; /* Ensure images fit the container */
-    height: 80px; /* Maintain height for images */
-    object-fit: cover; /* Prevent image distortion */
+    max-width: 105%; 
+    height: 80px; 
+    object-fit: cover; 
     margin-bottom: 2px;
 }
 .box-6 a {
@@ -508,15 +502,15 @@ span {
     text-decoration: none;
 }
 .box-6 .link {
-    grid-column: span 3; /* Make the link span all columns */
+    grid-column: span 3; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
     margin-top: 6px;
 }
 .box-6 .explore {
     font-size: 0.82rem;
     color: #2162a1;
-    white-space: nowrap; /* Prevent the text from wrapping */
+    white-space: nowrap; 
 }
 .explore:hover {
     color: black;
@@ -526,22 +520,22 @@ span {
 
 /*boxes row3*/
 .products-3 {
-    position: absolute; /* Ensures it's positioned above the background images */
-    top: 33.3%; /* Adjust this to set the vertical position of the boxes */
-    left: 0.1%; /* Adjust to position the boxes horizontally */
+    position: absolute; 
+    top: 33.3%; 
+    left: 0.1%; 
     right: 0.1%;
-    width: auto; /* Makes the container take most of the viewport width */
-    display: flex; /* For aligning multiple boxes in a row */
-    justify-content: space-evenly; /* Distributes the boxes evenly */
-    z-index: 2; /* Places the boxes above the background images */
+    width: auto; 
+    display: flex; 
+    justify-content: space-evenly; 
+    z-index: 2; 
 
 }
 
 .boxrow-3 {
-    background-color: white; /* White background for the box */
-    width: 30%; /* Each box takes up a third of the width in the row */
-    height: 418px; /* Set the height of the box */
-    padding: 20px; /* Adds inner spacing */
+    background-color: white; 
+    width: 30%; 
+    height: 418px; 
+    padding: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -561,15 +555,15 @@ span {
     margin-bottom: 25px;
 }
 .box-7 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 305px;
     object-fit: cover;
     margin-bottom: 18px;
 }
 .box-7 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-7 .shop {
     font-size: 0.82rem;
@@ -589,15 +583,15 @@ span {
     margin-bottom: 25px;
 }
 .box-8 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 305px;
     object-fit: cover;
     margin-bottom: 18px;
 }
 .box-8 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-8 .shop {
     font-size: 0.82rem;
@@ -609,12 +603,12 @@ span {
 .shop:hover {
     color: black;
 }
-/*box3*/
+/*box9*/
 .box-9 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 
 .box-9 div {
@@ -638,9 +632,9 @@ span {
     text-decoration: none;
 }
 .box-9 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-9 .see-more {
     font-size: 0.82rem;
@@ -655,7 +649,7 @@ span {
 /*products slider1*/
 .products-slider1 {
     background: #fff;
-    padding: 15px 0;  /* Adjusted to create space at the top and bottom */
+    padding: 15px 0;  
     position: absolute;
     top: 46.3%;
     left: 30px;
@@ -669,28 +663,28 @@ span {
 .products-slider1 h3 {
     position: absolute;
     margin: 0;
-    top: 15px; /* Adjusted top margin to avoid collision with images */
+    top: 15px; 
     left: 20px;
     font-size: 1.5rem;
     color: #333;
-    z-index: 3;  /* Ensure h3 stays above the images */
+    z-index: 3;  
 }
 
 .products-row1 {
     margin-left: 15px;
     margin-right: 15px;
     display: flex;
-    gap: 20px;  /* Space between images */
+    gap: 20px;  
     overflow-x: auto;
-    flex-wrap: nowrap;  /* Prevent images from wrapping to the next line */
+    flex-wrap: nowrap;  
     justify-content: flex-start;
     align-items: center;
     padding: 0 30px;
-    margin-top: 40px; /* Added margin to create space between header and images */
+    margin-top: 40px; 
 }
 .products-row1::-webkit-scrollbar {
-    height: 5px; /* Reserve space for the scrollbar */
-    background-color: transparent; /* Transparent by default */
+    height: 5px; 
+    background-color: transparent; 
 }
 
 .products-row1:hover::-webkit-scrollbar {
@@ -698,87 +692,81 @@ span {
 }
 
 .products-row1:hover::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark color for the thumb */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 6px;
 }
 
 .products-row1::-webkit-scrollbar-track {
-    background-color: transparent; /* Transparent track */
+    background-color: transparent; 
 }
 
 .products-row1 img {
-    height: auto;    /* Maintain image aspect ratio */
-    max-height: 200px;    /* Reduce the maximum height */
-    object-fit: contain;  /* Ensure the image fits within the box */
-    width: auto;     /* Allow image width to adjust while maintaining aspect ratio */
-    margin-bottom: 10px;  /* Reduce bottom margin to minimize space */
+    height: auto;    
+    max-height: 200px;    
+    object-fit: contain;  
+    width: auto;     
+    margin-bottom: 10px; 
 }
 
 .control-prev-products, .control-next-products {
     position: absolute;
     z-index: 3;
-    width: 50px; /* Set the width of the rectangular box */
-    height: 100px; /* Set the height of the rectangular box */
+    width: 50px; 
+    height: 100px; 
     display: flex;
-    justify-content: center; /* Center the arrow horizontally */
-    align-items: center; /* Center the arrow vertically */
+    justify-content: center; 
+    align-items: center; 
     font-size: 25px;
     cursor: pointer;
     top: 50%;
     transform: translateY(-50%);
-    opacity: 0; /* Initially hide the arrows */
-    transition: opacity 0.3s ease; /* Smooth transition for arrows */
-    border-radius: 6px; /* Optional: Rounded corners */
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    border-radius: 6px; 
     text-decoration: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Left button with transparent background */
 .control-prev-products {
     left: 10px;
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
-    backdrop-filter: blur(1px); /* Adds a blur effect to make the background visible */
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: border for better visibility */
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(1px); 
+    border: 1px solid rgba(0, 0, 0, 0.2); 
 }
-
-/* Right button with solid white background */
 .control-next-products {
     right: 10px;
-    background-color: #fff; /* Solid white background */
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: border for better visibility */
+    background-color: #fff; 
+    border: 1px solid rgba(0, 0, 0, 0.2); 
 }
 
 .products-slider1:hover .control-prev-products,
 .products-slider1:hover .control-next-products {
-    opacity: 1; /* Arrows become visible when the slider is hovered */
+    opacity: 1; 
 }
-
-/* Arrow icon styling */
 .control-prev-products i,
 .control-next-products i {
-    color: #0000007b; /* Arrow color */
+    color: #0000007b; 
 }
 
 
 
 /*boxes row4*/
 .products-4 {
-    position: absolute; /* Ensures it's positioned above the background images */
-    top: 55.5%; /* Adjust this to set the vertical position of the boxes */
-    left: 0.1%; /* Adjust to position the boxes horizontally */
+    position: absolute; 
+    top: 55.5%; 
+    left: 0.1%; 
     right: 0.1%;
-    width: auto; /* Makes the container take most of the viewport width */
-    display: flex; /* For aligning multiple boxes in a row */
-    justify-content: space-evenly; /* Distributes the boxes evenly */
-    z-index: 2; /* Places the boxes above the background images */
+    width: auto; 
+    display: flex; 
+    justify-content: space-evenly; 
+    z-index: 2; 
 
 }
 
 .boxrow-4 {
-    background-color: white; /* White background for the box */
-    width: 30%; /* Each box takes up a third of the width in the row */
-    height: 418px; /* Set the height of the box */
-    padding: 20px; /* Adds inner spacing */
+    background-color: white; 
+    width: 30%; 
+    height: 418px; 
+    padding: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -792,10 +780,10 @@ span {
 }
 /*box10*/
 .box-10 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 
 .box-10 div {
@@ -807,7 +795,7 @@ span {
 }
 
 .box-10 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -819,9 +807,9 @@ span {
     text-decoration: none;
 }
 .box-10 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-10 .see-more {
     font-size: 0.82rem;
@@ -834,10 +822,10 @@ span {
 }
 /*box11*/
 .box-11 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 
 .box-11 div {
@@ -849,7 +837,7 @@ span {
 }
 
 .box-11 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -861,9 +849,9 @@ span {
     text-decoration: none;
 }
 .box-11 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-11 .discover {
     font-size: 0.82rem;
@@ -882,15 +870,15 @@ span {
     margin-bottom: 25px;
 }
 .box-12 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 305px;
     object-fit: cover;
     margin-bottom: 18px;
 }
 .box-12 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-12 .shop-gaming {
     font-size: 0.82rem;
@@ -907,7 +895,7 @@ span {
 /*products slider2*/
 .products-slider2 {
     background: #fff;
-    padding: 15px 0;  /* Adjusted to create space at the top and bottom */
+    padding: 15px 0; 
     position: absolute;
     top: 68.5%;
     left: 30px;
@@ -921,28 +909,28 @@ span {
 .products-slider2 h3 {
     position: absolute;
     margin: 0;
-    top: 15px; /* Adjusted top margin to avoid collision with images */
+    top: 15px; 
     left: 20px;
     font-size: 1.5rem;
     color: #333;
-    z-index: 3;  /* Ensure h3 stays above the images */
+    z-index: 3;  
 }
 
 .products-row2 {
     margin-left: 15px;
     margin-right: 15px;
     display: flex;
-    gap: 20px;  /* Space between images */
+    gap: 20px;  
     overflow-x: auto;
-    flex-wrap: nowrap;  /* Prevent images from wrapping to the next line */
+    flex-wrap: nowrap;  
     justify-content: flex-start;
     align-items: center;
     padding: 0 30px;
-    margin-top: 40px; /* Added margin to create space between header and images */
+    margin-top: 40px; 
 }
 .products-row2::-webkit-scrollbar {
-    height: 5px; /* Reserve space for the scrollbar */
-    background-color: transparent; /* Transparent by default */
+    height: 5px; 
+    background-color: transparent; 
 }
 
 .products-row2:hover::-webkit-scrollbar {
@@ -950,87 +938,81 @@ span {
 }
 
 .products-row2:hover::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark color for the thumb */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 6px;
 }
 
 .products-row2::-webkit-scrollbar-track {
-    background-color: transparent; /* Transparent track */
+    background-color: transparent;
 }
 
 .products-row2 img {
-    height: auto;    /* Maintain image aspect ratio */
-    max-height: 200px;    /* Reduce the maximum height */
-    object-fit: contain;  /* Ensure the image fits within the box */
-    width: auto;     /* Allow image width to adjust while maintaining aspect ratio */
-    margin-bottom: 10px;  /* Reduce bottom margin to minimize space */
+    height: auto;    
+    max-height: 200px;    
+    object-fit: contain; 
+    width: auto;     
+    margin-bottom: 10px;  
 }
 
 .products-row2 .control-prev-products, .control-next-products {
     position: absolute;
     z-index: 3;
-    width: 50px; /* Set the width of the rectangular box */
-    height: 100px; /* Set the height of the rectangular box */
+    width: 50px; 
+    height: 100px; 
     display: flex;
-    justify-content: center; /* Center the arrow horizontally */
-    align-items: center; /* Center the arrow vertically */
+    justify-content: center; 
+    align-items: center; 
     font-size: 25px;
     cursor: pointer;
     top: 50%;
     transform: translateY(-50%);
-    opacity: 0; /* Initially hide the arrows */
-    transition: opacity 0.3s ease; /* Smooth transition for arrows */
-    border-radius: 6px; /* Optional: Rounded corners */
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    border-radius: 6px; 
     text-decoration: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Left button with transparent background */
 .control-prev-products {
     left: 10px;
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
-    backdrop-filter: blur(1px); /* Adds a blur effect to make the background visible */
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: border for better visibility */
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(1px); 
+    border: 1px solid rgba(0, 0, 0, 0.2); 
 }
-
-/* Right button with solid white background */
 .control-next-products {
     right: 10px;
-    background-color: #fff; /* Solid white background */
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: border for better visibility */
+    background-color: #fff; 
+    border: 1px solid rgba(0, 0, 0, 0.2); 
 }
 
 .products-slider2:hover .control-prev-products,
 .products-slider2:hover .control-next-products {
-    opacity: 1; /* Arrows become visible when the slider is hovered */
+    opacity: 1; 
 }
-
-/* Arrow icon styling */
 .control-prev-products i,
 .control-next-products i {
-    color: #0000007b; /* Arrow color */
+    color: #0000007b; 
 }
 
 
 
 /*boxes row5*/
 .products-5 {
-    position: absolute; /* Ensures it's positioned above the background images */
-    top: 77.8%; /* Adjust this to set the vertical position of the boxes */
-    left: 0.1%; /* Adjust to position the boxes horizontally */
+    position: absolute; 
+    top: 77.8%; 
+    left: 0.1%;
     right: 0.1%;
-    width: auto; /* Makes the container take most of the viewport width */
-    display: flex; /* For aligning multiple boxes in a row */
-    justify-content: space-evenly; /* Distributes the boxes evenly */
-    z-index: 2; /* Places the boxes above the background images */
+    width: auto; 
+    display: flex; 
+    justify-content: space-evenly; 
+    z-index: 2; 
 
 }
 
 .boxrow-5 {
-    background-color: white; /* White background for the box */
-    width: 30%; /* Each box takes up a third of the width in the row */
-    height: 418px; /* Set the height of the box */
-    padding: 20px; /* Adds inner spacing */
+    background-color: white; 
+    width: 30%; 
+    height: 418px; 
+    padding: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1044,10 +1026,10 @@ span {
 }
 /*box13*/
 .box-13 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 
 .box-13 div {
@@ -1059,7 +1041,7 @@ span {
 }
 
 .box-13 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -1071,9 +1053,9 @@ span {
     text-decoration: none;
 }
 .box-13 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-13 .see-more {
     font-size: 0.82rem;
@@ -1086,10 +1068,10 @@ span {
 }
 /*box14*/
 .box-14 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    padding: 0 1px; 
 }
 
 .box-14 div {
@@ -1101,7 +1083,7 @@ span {
 }
 
 .box-14 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%;
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -1113,9 +1095,9 @@ span {
     text-decoration: none;
 }
 .box-14 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-14 .discover {
     font-size: 0.82rem;
@@ -1128,10 +1110,10 @@ span {
 }
 /*box15*/
 .box-15 {
-    display: grid; /* Use grid for better layout control */
-    grid-template-columns: repeat(2, 1fr); /* Two products per row */
-    gap: 12px; /* Spacing between items */
-    padding: 0 1px; /* Add padding to both left and right sides */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px; 
+    padding: 0 1px; 
 }
 
 .box-15 div {
@@ -1143,7 +1125,7 @@ span {
 }
 
 .box-15 img {
-    max-width: 100%; /* Adjust the size of the images */
+    max-width: 100%; 
     height: 120px;
     object-fit: cover;
     margin-bottom: 2px;
@@ -1155,9 +1137,9 @@ span {
     text-decoration: none;
 }
 .box-15 .link {
-    grid-column: span 2; /* Make the link span all columns */
+    grid-column: span 2; 
     display: flex;
-    justify-content: left; /* Center the explore link */
+    justify-content: left; 
 }
 .box-15 .discover {
     font-size: 0.82rem;
@@ -1172,7 +1154,7 @@ span {
 /*products slider3*/
 .products-slider3 {
     background: #fff;
-    padding: 15px 0;  /* Adjusted to create space at the top and bottom */
+    padding: 15px 0;  
     position: absolute;
     top: 90.8%;
     left: 30px;
@@ -1186,28 +1168,28 @@ span {
 .products-slider3 h3 {
     position: absolute;
     margin: 0;
-    top: 15px; /* Adjusted top margin to avoid collision with images */
+    top: 15px; 
     left: 20px;
     font-size: 1.5rem;
     color: #333;
-    z-index: 3;  /* Ensure h3 stays above the images */
+    z-index: 3;  
 }
 
 .products-row3 {
     margin-left: 15px;
     margin-right: 15px;
     display: flex;
-    gap: 20px;  /* Space between images */
+    gap: 20px;  
     overflow-x: auto;
-    flex-wrap: nowrap;  /* Prevent images from wrapping to the next line */
+    flex-wrap: nowrap;  
     justify-content: flex-start;
     align-items: center;
     padding: 0 30px;
-    margin-top: 40px; /* Added margin to create space between header and images */
+    margin-top: 40px; 
 }
 .products-row3::-webkit-scrollbar {
-    height: 5px; /* Reserve space for the scrollbar */
-    background-color: transparent; /* Transparent by default */
+    height: 5px; 
+    background-color: transparent;
 }
 
 .products-row3:hover::-webkit-scrollbar {
@@ -1215,65 +1197,59 @@ span {
 }
 
 .products-row3:hover::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark color for the thumb */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 6px;
 }
 
 .products-row3::-webkit-scrollbar-track {
-    background-color: transparent; /* Transparent track */
+    background-color: transparent; 
 }
 
 .products-row3 img {
-    height: auto;    /* Maintain image aspect ratio */
-    max-height: 200px;    /* Reduce the maximum height */
-    object-fit: contain;  /* Ensure the image fits within the box */
-    width: auto;     /* Allow image width to adjust while maintaining aspect ratio */
-    margin-bottom: 10px;  /* Reduce bottom margin to minimize space */
+    height: auto;   
+    max-height: 200px;    
+    object-fit: contain;  
+    width: auto;     
+    margin-bottom: 10px;  
 }
 
 .products-row3 .control-prev-products, .control-next-products {
     position: absolute;
     z-index: 3;
-    width: 50px; /* Set the width of the rectangular box */
-    height: 100px; /* Set the height of the rectangular box */
+    width: 50px; 
+    height: 100px; 
     display: flex;
-    justify-content: center; /* Center the arrow horizontally */
-    align-items: center; /* Center the arrow vertically */
+    justify-content: center; 
+    align-items: center; 
     font-size: 25px;
     cursor: pointer;
     top: 50%;
     transform: translateY(-50%);
-    opacity: 0; /* Initially hide the arrows */
-    transition: opacity 0.3s ease; /* Smooth transition for arrows */
-    border-radius: 6px; /* Optional: Rounded corners */
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    border-radius: 6px; 
     text-decoration: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Left button with transparent background */
 .control-prev-products {
     left: 10px;
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
-    backdrop-filter: blur(1px); /* Adds a blur effect to make the background visible */
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: border for better visibility */
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(1px); 
+    border: 1px solid rgba(0, 0, 0, 0.2); 
 }
-
-/* Right button with solid white background */
 .control-next-products {
     right: 10px;
-    background-color: #fff; /* Solid white background */
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: border for better visibility */
+    background-color: #fff; 
+    border: 1px solid rgba(0, 0, 0, 0.2); 
 }
 
 .products-slider3:hover .control-prev-products,
 .products-slider3:hover .control-next-products {
-    opacity: 1; /* Arrows become visible when the slider is hovered */
+    opacity: 1; 
 }
-
-/* Arrow icon styling */
 .control-prev-products i,
 .control-next-products i {
-    color: #0000007b; /* Arrow color */
+    color: #0000007b; 
 }
 
 
@@ -1282,28 +1258,28 @@ span {
 }
 .backtop {
     text-align: center;
-    height: 50px; /* Set the height of the clickable area */
-    background-color: #37475a; /* Background color */
-    display: flex; /* Center the content horizontally and vertically */
+    height: 50px; 
+    background-color: #37475a; 
+    display: flex; 
     align-items: center;
     justify-content: center;
-    cursor: pointer; /* Change cursor to pointer for clickable area */
-    transition: background-color 0.3s ease; /* Smooth hover transition */
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
 
 .backtop a {
-    color: #ffffff; /* White text color */
-    text-decoration: none; /* Remove underline */
-    font-size: 14px; /* Adjust font size */
+    color: #ffffff; 
+    text-decoration: none; 
+    font-size: 14px; 
 }
 
 .backtop:hover {
-    background-color: #485769; /* Slightly lighter background on hover */
+    background-color: #485769; 
 }
 .detail {
     background-color: #232f3e;
-    padding-top: 30px; /* Reduce padding to save space */
-    padding-bottom: 0; /* Remove unnecessary bottom padding */
+    padding-top: 30px; 
+    padding-bottom: 0; 
 }
 
 .table {
@@ -1343,19 +1319,19 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 300px; /* Reduce padding to bring the line closer */
+    padding: 20px 300px; 
     background-color: #232f3e;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .amazon-logo {
     height: 50px;
-    margin-right: 10px; /* Adjust spacing between the logo and buttons */
+    margin-right: 10px; 
 }
 
 .options {
     display: flex;
-    gap: 10px; /* Space between buttons */
+    gap: 10px;
 }
 
 .btn {
@@ -1363,30 +1339,30 @@ span {
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 3px;
-    padding: 6px 10px; /* Reduce padding for a compact button size */
+    padding: 6px 10px; 
     font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 .icon-globe::before {
-    content: "\1F310"; /* Unicode for globe emoji 🌐 */
-    font-size: 14px; /* Adjust globe size */
-    margin-right: 2px; /* Space between globe and text */
+    content: "\1F310"; 
+    font-size: 14px; 
+    margin-right: 2px; 
 }
 
 .icon-caret::after {
-    content: "▼"; /* Unicode for caret down */
-    font-size: 12px; /* Adjust caret size */
-    margin-left: 10px; /* Space between text and caret */
+    content: "▼"; 
+    font-size: 12px; 
+    margin-left: 10px; 
 }
 .location {
-    gap: 5px; /* Space between flag and text */
+    gap: 5px; 
 }
 
 .icon-flag::before {
-    content: ""; /* Placeholder for flag */
+    content: ""; 
     display: inline-block;
-    background-size: cover; /* Ensure flag fits the dimensions */
-    margin-right: 5px; /* Space between flag and text */
+    background-size: cover; 
+    margin-right: 5px; 
 }
 
