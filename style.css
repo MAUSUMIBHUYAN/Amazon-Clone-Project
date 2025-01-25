@@ -5,29 +5,40 @@
     font-family: Arial;
     border: border-box;
 }
+body {
+    overflow-x: auto; 
+    width: 100%;
 
+}
 
 .navbar {
     height: 60px;
     background-color: #0f1111;
+    width: 100%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    white-space: nowrap;
+    min-width: 1100px;
 }
 .navbar a {
     text-decoration: none; 
     color: white;
 }
+
+
 .navlogo {
     height: 50px;
     width: 100px;
+    
 }
 .logo {
     background-image: url("images/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
+    
 }
 
 .border {
@@ -64,6 +75,7 @@
     border-radius: 4px;
     gap: 5px;
     overflow: hidden; 
+    
 }
 
 .nav-search:hover {
@@ -77,6 +89,7 @@
     align-items: center;
     padding: 0 10px;
     cursor: pointer;
+    
 }
 .search-select-container:hover, 
 .search-select-container:hover .search-select {
@@ -138,6 +151,7 @@
     font-size: 0.9rem;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 .nav-language:hover {
     background-color: #232f3e;
@@ -154,6 +168,7 @@ span {
 .nav-second {
     font-size: 0.85rem;
     font-weight: 700;
+    
 }
 
 
@@ -163,6 +178,7 @@ span {
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
+    
 }
 
 
@@ -175,6 +191,7 @@ span {
     align-items: center;
     justify-content: flex-start;
     font-size: 0.85rem;
+    min-width: 1100px;
 }
 .panel a{
     color: white;
@@ -190,7 +207,11 @@ span {
 .panel a:hover {
     border: 1px solid white;
 }
-
+@media (max-width: 1100px) {
+    .navbar, .panel {
+        min-width: 1100px; /* Fix layout width for scrollable behavior */
+    }
+}
 
 
 /*background */
@@ -200,11 +221,13 @@ span {
     overflow-y: hidden; 
     overflow: hidden;
     background-color: #e0e0e0;
+    min-width: 1100px;
 
 }
 .bg-slider {
     position: relative;
     height: 100%;
+    
 }
 .bg-slider ul {
     display: flex; 
@@ -238,6 +261,11 @@ span {
     font-size: 50px;
     cursor: pointer;
     right: 0;
+}
+@media (max-width: 1100px) {
+    .bg-section {
+        min-width: 1100px; 
+    }
 }
 
 
@@ -1278,6 +1306,7 @@ span {
 
 .footer {
     width: 100%;
+    min-width: 1100px;
 }
 .backtop {
     text-align: center;
@@ -1389,3 +1418,8 @@ span {
     margin-right: 5px; 
 }
 
+@media (max-width: 1100px) {
+    .footer {
+        min-width: 1100px; 
+    }
+}
